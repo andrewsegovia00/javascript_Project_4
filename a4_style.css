@@ -1,0 +1,256 @@
+a:link {
+    font-family: Arial;
+    color: red;
+    margin: 15px 0px 20px 40px;
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    padding: 4px 5px 4px 5px;
+}
+
+a {
+    font-weight: bold;
+}
+
+.hyperlinks {
+    display: grid;
+    justify-content: left;
+    align-items: left;
+    height: fit-content;
+    display: inline-block
+}
+
+.header {
+    color: black;
+    font-family: arial;
+    text-align: left;
+    padding: 10px 30px 5px 20px;
+    font-size: 14px;
+    text-decoration: underline overline;
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.outerBox {
+    margin-top: -10px;
+    height: 100%;
+    border: 5px;
+    border-color: black;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+
+.outerOuterBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.overallText {
+    /* display: inline-block;
+    vertical-align: top;
+    font-family: arial; */
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px 0px 15px 0px;
+    color: #e3ebf1;
+    font-family: Helvetica, sans-serif;
+    ;
+}
+
+.headText {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    align-content: center;
+    /* padding: 0px 25px 0px 0px; */
+    margin: 0px 40px 0px 40px;
+
+}
+
+.btnBackground {
+    background-color: yellow;
+    border-color: none;
+    color: black !important;
+}
+
+.textBtn {
+    margin: 20px 0px 0px 0px;
+    width: 400px;
+    white-space: normal;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    opacity: 50%;
+}
+
+.addBtn {
+    margin: 20px 0px 20px 0px;
+    width: 80px;
+    white-space: normal;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #0182ba;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+::placeholder {
+    color: rgb(174, 174, 174);
+}
+
+.brownBox {
+    background-color: #4b4344;
+    margin-bottom: 15px;
+    /* padding: 15px 15px 0px 15px; */
+    margin: 15px 15px 15px 15px;
+    grid-gap: 10px;
+}
+
+.innerBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.clickImg {
+    margin: 45px 0px 0px 0px;
+}
+
+.counter {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fffdff;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 10px;
+    top: 13px;
+
+}
+
+.counterText {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    bottom: 15px;
+    font-size: 20px;
+}
+
+.listItems {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 25px;
+    color: white;
+    background-color: #0182ba;
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+    text-shadow: 2px 2px 8px #000000;
+    margin-bottom: -10px;
+    font-weight: 100;
+}
+
+.ui-datepicker {
+    z-index: 10000 !important;
+}
+
+.ui-datepicker {
+    width: auto;
+    height: auto;
+    margin: 5px auto 0;
+    font: 9pt Arial, sans-serif;
+    background-color: white;
+}
+
+
+.ui-datepicker a {
+    text-decoration: none;
+    color: rgb(179, 205, 164);
+
+}
+
+
+.ui-datepicker table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ui-datepicker-header {
+    color: rgb(179, 205, 164);
+    font-weight: bold;
+    line-height: 30px;
+    width: 573px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #111;
+    background-color: rgb(97, 96, 96);
+}
+
+.ui-datepicker-title {
+    text-align: center;
+
+}
+
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+}
+
+.ui-datepicker-prev {
+    float: left;
+    margin-left: 5px;
+
+}
+
+.ui-datepicker-next {
+    float: right;
+    margin-right: 5px;
+
+}
+
+.ui-datepicker thead {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: 6pt;
+    padding: 5px 0;
+    color: #666666;
+}
+
+.ui-datepicker tbody td {
+    padding: 7px;
+    border: 1px solid #bbb;
+}
+
+
+ui-datepicker tbody tr {
+    border-bottom: 1px solid #bbb;
+}
+
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px;
+}
